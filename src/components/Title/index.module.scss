@@ -1,0 +1,22 @@
+.title {
+  color: #333;
+  position: relative;
+  margin: 20px 0;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    background-color: #333333;
+    z-index: 3;
+    width: 52px;
+    height: 3px;
+    transition: 1s;
+  }
+
+  &:hover::before {
+    width: 99px;
+  } 
+}

@@ -1,0 +1,27 @@
+:root {
+  --bg: #f9f8f6;
+  --block: #333; 
+  /* 灰色： #666 #aaa */
+  user-select: none;
+  background-color: var(--bg);
+  scroll-behavior: smooth;
+}
+body,div,ul,li,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.container-bg{
+  background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0 ,0, .05);
+}

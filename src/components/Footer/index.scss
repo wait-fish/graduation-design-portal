@@ -1,0 +1,17 @@
+footer {
+  background-color: #333;
+  font-size: 14px;
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+footer p {
+  color: #f0f0f0;
+  margin: 15px;
+}
+footer p:last-child {
+  margin-top: 0;
+}

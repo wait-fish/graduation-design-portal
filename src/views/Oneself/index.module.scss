@@ -1,0 +1,49 @@
+.mybg {
+  padding: 20px;
+  margin-bottom: 50px;
+
+  .info_box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    
+    .info_left {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-left: 50px;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .info_right {
+      margin-left: 50px;
+      
+      h2 {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .quit_btn {
+    display: block;
+    outline: none;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: var(--block);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.2s;
+
+    &:active {
+      background-color: #999;
+    }
+  }
+}
